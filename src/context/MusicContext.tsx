@@ -52,7 +52,7 @@ interface MusicContextType {
   closeModal: () => void;
 }
 
-const DEFAULT_PRESET_TRACKS: PlaylistItem[ = [
+const DEFAULT_PRESET_TRACKS = [
   {
     id: "nhac-1",
     title: "Nhạc nền lạ",
@@ -89,7 +89,7 @@ const DEFAULT_PRESET_TRACKS: PlaylistItem[ = [
     sourceType: "synthesizer",
     objectUrl: "/nhac-nen-nam.mp3.mp3"
   }
-];
+] as any;
 
 const MusicContext = createContext<MusicContextType | undefined>(undefined);
 
