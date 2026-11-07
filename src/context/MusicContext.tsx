@@ -52,7 +52,44 @@ interface MusicContextType {
   closeModal: () => void;
 }
 
-const DEFAULT_PRESET_TRACKS: PlaylistItem[] = [];
+const DEFAULT_PRESET_TRACKS: PlaylistItem[ = [
+  {
+    id: "nhac-1",
+    title: "Nhạc nền lạ",
+    artist: "Lớp 12A03",
+    duration: 180,
+    isCustom: false,
+    sourceType: "synthesizer",
+    objectUrl: "/nhac-nen-la.mp3.mp3"
+  },
+  {
+    id: "nhac-2",
+    title: "Nhạc nền lofi",
+    artist: "Lớp 12A03",
+    duration: 180,
+    isCustom: false,
+    sourceType: "synthesizer",
+    objectUrl: "/nhac-nen-loi.mp3.mp3"
+  },
+  {
+    id: "nhac-3",
+    title: "Nhạc nền mặt trời",
+    artist: "Lớp 12A03",
+    duration: 180,
+    isCustom: false,
+    sourceType: "synthesizer",
+    objectUrl: "/nhac-nen-mat-troi.mp3.mp3"
+  },
+  {
+    id: "nhac-4",
+    title: "Nhạc nền nam",
+    artist: "Lớp 12A03",
+    duration: 180,
+    isCustom: false,
+    sourceType: "synthesizer",
+    objectUrl: "/nhac-nen-nam.mp3.mp3"
+  }
+];
 
 const MusicContext = createContext<MusicContextType | undefined>(undefined);
 
