@@ -104,7 +104,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate, onSelectWo
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white aspect-[16/10] lg:aspect-[4/3] group">
               <img
-                src="/src/assets/images/hero_literary_study_1793974936394.jpg"
+                src="s.jpg"
                 alt="Bàn học văn học nghệ thuật với sách mở và bút mực tím"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -343,7 +343,7 @@ export const HomeSection: React.FC<HomeSectionProps> = ({ onNavigate, onSelectWo
 
         <div className="md:col-span-4 rounded-3xl overflow-hidden shadow-lg border border-[#25234A]/10 bg-white relative min-h-64">
           <img
-            src="/src/assets/images/literature_library_books_1793974937139.jpg"
+            src="thu-vien.jpg"
             alt="Thư viện văn học sách và ghi chú"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
