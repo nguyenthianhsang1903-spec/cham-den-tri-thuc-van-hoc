@@ -1,0 +1,8 @@
+{
+  "name": "Remix Văn Học 12 – Chạm Đến Tri Thức",
+  "description": "Sản phẩm học tập số môn Ngữ văn – Năm học: 2026–2027. Giáo viên: Võ Thị Mỹ Ngà. Học sinh lớp: 12A03 (K60 - Trường THPT Yên Lãng).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
